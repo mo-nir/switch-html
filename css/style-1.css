@@ -1,3 +1,4 @@
+/*******Base CSS********/
 *{
     margin: 0;
     padding: 0;
@@ -18,15 +19,14 @@ a{
     align-items: center;
 }
 
-.main-menu {
-    justify-content: space-between;
-}
+/*******Main CSS********/
 
-
-.menu-trigger{
+.m-menu{
     display: none;
 }
+/*******Media Query********/
 @media screen and (max-width:600px){
+/*
     .menu-trigger{
         display: block;
     }
@@ -37,4 +37,4 @@ a{
     .right-search{
         width: 100%;
     }
-}
+}*/
