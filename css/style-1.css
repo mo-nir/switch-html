@@ -10,7 +10,7 @@ h1,h2,h3,h4,h5,h6,a,p,ol,ul{
 li{
     list-style: none;
 }
-a{
+a, a:hover, a:visited, a:focus, a:active{
     text-decoration: none;
 }
 .flex{
@@ -20,24 +20,110 @@ a{
 }
 
 /*******Main CSS********/
+body{
+    font-size: 16px;
+}
+
+/*****Header-Area******/
+.header-area{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.navigation a{
+    color: #fff;
+}
 .mob-menu{
     display: none;
 }
 .main-menu {
     justify-content: space-between;
+    min-height: 50px;
 }
 .menu-left ul li:not(:last-child) {
     margin-right: 20px;
+}
+.menu-left {
+    font-family: ProximaNova-Light;
+}
+.menu-left a:hover{
+    font-family: ProximaNova-Bold;
+}
+.menu-left li{
+    position: relative;
+}
+.menu-left li:after{
+    position: absolute;
+    left: 0;
+    top: -5px;
+    height: 5px;
+    width: 100%;
+    background-color: #54d154;
+    content: '';
+    display: none;
+}
+.menu-left li:hover:after{
+    display: block;
 }
 .menu-center {
     width: 200px;
     text-align: center;
     margin-left: -125px;
+    font-family: NautilusPompilius;
+    font-size: 24px;
+}
+.menu-right{
+    font-family: proximanova-light;
+}
+input[type="search"] {
+    border: none;
+    background:none;
+}
+input[type="search"]:focus {
+    outline: none;
+    background-color:none;
+}
+.butn{
+    padding: 5px 15px;
+    border-radius: 50px;
+    background: rgba(255,255,255, .8);
+    color: #fff;
+}
+.search-butn{
+    color: #111;
+}
+.search-butn a{
+    color: #000;
 }
 
-
-
-
+/*****Hero-Area******/
+.hero-area{
+    background-image: url(../img/hero-bg.jpg);
+    background-size: cover;
+}
+.hero-text {
+    flex-direction: column;
+}
+.hero-text h1{
+    margin-top: 278px;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 55px;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+.wrk-wth-us-butn{
+    margin-top: 42px;
+    padding: 15px 27px;
+    background-color:  #54d154;
+}
+.scrl-dwn-butn{
+    margin-top: 218px;
+    margin-bottom: 15px;
+    color: #000;
+}
 
 
 /*******Media Query********/
