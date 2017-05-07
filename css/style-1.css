@@ -20,21 +20,20 @@ a{
 }
 
 /*******Main CSS********/
-
-.m-menu{
+.mob-menu{
     display: none;
 }
+.main-menu {
+    justify-content: space-between;
+}
+.menu-left ul li:not(:last-child) {
+    margin-right: 20px;
+}
+
+
+
+
+
+
 /*******Media Query********/
-@media screen and (max-width:600px){
-/*
-    .menu-trigger{
-        display: block;
-    }
-    .main-menu, .left-menu ul{
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .right-search{
-        width: 100%;
-    }
-}*/
+
