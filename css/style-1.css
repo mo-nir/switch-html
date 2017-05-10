@@ -30,6 +30,7 @@
     a:focus,
     a:active {
         text-decoration: none;
+        color: none;
     }
 
     .flex {
@@ -309,37 +310,39 @@
     .button {
       display: inline-block;
       padding: 10px 18px;
-      margin-bottom: 10px;
-      background: #EEE;
-      border: none;
+      background: #fff;
+      border: 1px solid #2b9b2b;
       border-radius: 7px;
       background-image: linear-gradient( to bottom, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.2) );
       color: #222;
-      font-family: sans-serif;
+      font-family: ProximaNova-Regular;
       font-size: 16px;
-      text-shadow: 0 1px white;
       cursor: pointer;
     }
+    .button:focus {
+        outline: none;
+    }
 
-    .button:hover {
+    /*color when hover*/
+    .button:hover,
+    .button.is-checked:hover {
       background-color: #8CF;
       text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
       color: #222;
     }
-
+    
+    /*color when click*/
     .button:active,
-    .button.is-checked {
+    .button.is-checked:active {
       background-color: #28F;
     }
 
     .button.is-checked {
-      color: white;
+      background: #2b9b2b;
+      color: #fff;
       text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
     }
 
-    .button:active {
-      box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
-    }
 
     /* ---- button-group ---- */
 
@@ -350,27 +353,16 @@
     }
 
     .button-group .button {
-      float: left;
       border-radius: 0;
-      margin-left: 0;
-      margin-right: 1px;
     }
 
-    .button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }
-    .button-group .button:last-child { border-radius: 0 0.5em 0.5em 0; }
-
-    /* ---- isotope ---- */
-
-    .grid {
-      border: 1px solid #333;
+    .button-group .button:first-child { 
+        border-radius: 25px 0 0 25px; 
+    }
+    .button-group .button:last-child { 
+        border-radius: 0 25px 25px 0 ; 
     }
 
-    /* clear fix */
-    .grid:after {
-      content: '';
-      display: block;
-      clear: both;
-    }
 
     /* ---- .grid-item ---- */
 
@@ -378,7 +370,100 @@
       margin: 0;
       padding: 0;
     }
-    .grid-item{
-        width: 17%;
+    .grid-item {
+        width: 20%;
+        padding: 15px;
+    }
+    .grid-item img {
+        width: 100%;
+    }
+
+
+/*****Testimonial-Area*****/
+
+    .testimonial-carousel-item p:before {
+        content: '"';
+    }
+
+    .testimonial-carousel-item p:after {
+        content: '"';
+    }
+
+    .testimonial-author {
+        margin-top: 10px;
+    }
+
+    .tesimonial-author-img {
+        width: 46px;
+        height: 46px;
+        padding: 5px;
+        border: 2px solid #e0dfdf;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .testimonial-author-info {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 15px;
+    }
+    
+    .testimonial-author-name{
+        margin-bottom: 4px;
+    }
+
+    .owl-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .owl-nav div{
+        background: #000;
+        color: #fff;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        line-height: 20px;
+        text-align: center;
+        margin-top: -28%;
+        transform: translateY(-50%);
+    }
+    
+    .owl-prev {
+        margin-left: -20px;
+    }
+
+    .owl-next {
+        margin-right: -20px;
+    }
+    
+/***Our-Happy-Client-Area**/
+
+    .our-hpy-clnt-area{
+        background: #f2f1f1;
+    }
+
+    .our-hpy-clnt-carousel{
+        margin-bottom: 60px;
+    }
+    
+    .our-hpy-clnt-carousel .owl-item img{
+        display: inline-block;
+        width: auto;
+    }
+    
+    .our-hpy-clnt-img:not(:last-child){
+        margin-bottom: 60px;
+    }
+
+    .see-all-clnt-butn{
+        color: #a59d9d;
+        background: #dddcdc;
+        padding: 11px 25px;
+    }
+
+    .see-all-clnt-butn>*{
+        margin: 0 10px;
     }
 /*******Media Query********/
