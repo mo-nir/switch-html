@@ -466,4 +466,60 @@
     .see-all-clnt-butn>*{
         margin: 0 10px;
     }
+
+/****Meet-The-Team-Area****/
+
+    .meet-the-tm-area{
+        background: #54d154;
+    }
+
+    .meet-the-tm-item {
+        flex-direction: column;
+    }
+
+    .meet-the-tm-img {
+        height: 125px;
+        width: 125px;
+        background: #fff;
+        border-radius: 50%;
+        overflow: hidden;
+        padding: 10px 0;
+    }
+
+    .meet-the-tm-item span {
+        height: 95px;
+        border: 2px solid #207b20;
+        margin: 12px 0;
+    }
+
+    .meet-the-tm-butn{
+        margin-top: 12px;
+        padding: 4px 6px;
+    }
+
+    .meet-the-tm-butn a {
+        padding: 0 2px;
+        font-size: 11px;
+    }
+
+    .meet-the-tm-butn i.fa.fa-dribbble {
+        color: red;
+        font-size: 22px;
+    }    
+
+    .meet-the-tm-butn i.fa.fa-behance,
+    .meet-the-tm-butn i.fa.fa-twitter {
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        color: #fff;
+    }
+    .meet-the-tm-butn i.fa.fa-behance {
+        background: #0061ff;
+    }    
+
+    .meet-the-tm-butn i.fa.fa-twitter {
+        background: #00aced;
+    }
+
 /*******Media Query********/
