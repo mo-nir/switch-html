@@ -467,6 +467,7 @@
         margin: 0 10px;
     }
 
+
 /****Meet-The-Team-Area****/
 
     .meet-the-tm-area{
@@ -522,4 +523,10 @@
         background: #00aced;
     }
 
+
+/**Work-With-Us-Butn-Area**/
+
+    .wrk-wth-us-butn-area{
+        background: #3eba3e;
+    }
 /*******Media Query********/
