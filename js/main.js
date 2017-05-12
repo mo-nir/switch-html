@@ -3,7 +3,7 @@
     
     
 //    // imagesLoaded
-//    $('#container').imagesLoaded( function() {
+    $('#container').imagesLoaded( function() {
         
         $('.our-lt-wrk-filter-butn-group').on( 'click', 'button', function() {
             var filterValue = $(this).attr('data-filter');
@@ -19,9 +19,8 @@
             }
         })
         
-//    });
-    
-    
+    });
+        
     //Owl Carousel Activation for Testimonial Are
     var owl_testimonial = $('.testimonial-carousel.owl-carousel');
     owl_testimonial.owlCarousel({
