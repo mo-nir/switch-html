@@ -2,24 +2,28 @@
 'use strict';
     
     
-//    // imagesLoaded
-    $('#container').imagesLoaded( function() {
-        
+        // Isotop Code for button
         $('.our-lt-wrk-filter-butn-group').on( 'click', 'button', function() {
             var filterValue = $(this).attr('data-filter');
             $grid.isotope({ filter: filterValue });
         });
         
-        var $grid = $('.grid').isotope({
-            itemSelector: '.grid-item',
-            percentPosition: true,
+
+    // Isotop Activation after Imagesload
+    var $grid = $('.grid').imagesLoaded(function () {
+        // init Isotope after all images have loaded
+        $grid.isotope({
+            // options...
+            itemSelector: '.grid-item', 
+            percentPosition: true, 
             masonry: {
-            // use outer width of grid-sizer for columnWidth
-            columnWidth: '.grid-item'
+                // use outer width of grid-sizer for columnWidth
+                columnWidth: '.grid-item'
             }
-        })
-        
+        });
     });
+        
+        
         
     //Owl Carousel Activation for Testimonial Are
     var owl_testimonial = $('.testimonial-carousel.owl-carousel');
