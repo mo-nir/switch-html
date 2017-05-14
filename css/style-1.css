@@ -473,6 +473,7 @@
 
     .meet-the-tm-area{
         background: #54d154;
+        padding-bottom: 0;
     }
 
     .meet-the-tm-item {
@@ -626,7 +627,32 @@
         color: #fff;
     }
 
+    .footer-area .container-fluid{
+        background: #222;
+    }
+
+    .footer-logos{
+        justify-content: space-around;
+    }
 
 
+    .footer-copyright{
+        justify-content: space-around;
+        background: #111111;
+        color: #fff;
+        padding: 8px 0;
+    }
 
 /*******Media Query********/
+
+@media screen and (max-width: 990px){
+    
+    .main-menu{
+        display: none;
+    }
+    .mob-menu{
+        display: block;
+        text-align: right;
+    }
+    .
+}
