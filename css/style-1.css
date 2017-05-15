@@ -45,6 +45,7 @@
     body {
         font-size: 16px;
         text-align: center;
+        font-family: ProximaNova-Regular;
     }
 
     .section-padding {
@@ -221,33 +222,17 @@
         background: #fff;
     }
 
-    .wt-we-do-item {}
+    .wt-we-do-item {
+        
+    }   
 
-    .single-wt-we-do-item {}
-
-
-    /* give margin-right to all child except 3,6,9...
-    .single-wt-we-do-item:not(:nth-child(3n+0)) {
-        margin-right: 114px;
+    .single-wt-we-do-item {
+        
     }
-    */
 
-
-    /* remove margin-right from last-child
-    .single-wt-we-do-item:last-child {
-        margin-right: 0;
-    }
-    */
-
-
-    /* remove margin-bottom from last three child
-    .single-wt-we-do-item:nth-last-child(-n+3){
-        margin-bottom: 0;
-    }
-    */
 
     .single-wt-we-do-item img {
-        padding: 35px 30px;
+        padding: 34px 27px;
         border-radius: 30px;
         background: #e1f3e1;
     }
@@ -255,7 +240,7 @@
     .single-wt-we-do-item h4 {
         font-family: ProximaNova-Bold;
         font-size: 24px;
-        margin: 30px 0;
+        margin: 30px 0 20px;
     }
 
     .single-wt-we-do-item p {
@@ -265,11 +250,9 @@
 
     .lern-more-butn {
         margin-top: 30px;
-        /* add margin-bottom if multiple row
-        margin-bottom: 70px;
-        */
         background: #54d154;
         display: inline-block;
+        font-family: ProximaNova-Bold;
     }
 
 
