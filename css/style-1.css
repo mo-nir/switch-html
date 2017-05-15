@@ -268,7 +268,7 @@
     .vw-more-wrk-butn{
         background: #2b9b2b;
         font-family: ProximaNova-Regular;
-        font-size: 16px;
+        font-size: 18px;
         padding: 10px 20px;
     }
     /* ---- button ---- */
@@ -280,10 +280,14 @@
       border: 1px solid #2b9b2b;
       border-radius: 7px;
       background-image: linear-gradient( to bottom, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.2) );
-      color: #222;
+      color: #fff;
       font-family: ProximaNova-Regular;
       font-size: 16px;
       cursor: pointer;
+    }
+
+    .button:not(:first-child){
+        color: #2b9b2b;
     }
     .button:focus {
         outline: none;
