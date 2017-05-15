@@ -201,16 +201,16 @@
 
     .wrk-wth-us-butn {
         margin-top: 42px;
-        padding: 15px 27px;
-        background-color: #54d154;
+        padding: 16px 27px;
+        background: #54d154;
         font-family: ProximaNova-Regular;
         font-size: 22px;
     }
 
     .scrl-dwn-butn {
         margin-top: 218px;
-        margin-bottom: 15px;
-        color: #000;
+        margin-bottom: 12px;
+        color: #111;
         font-family: ProximaNova-Light;
     }
 
