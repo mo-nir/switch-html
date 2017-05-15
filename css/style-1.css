@@ -68,11 +68,11 @@
         height: 2px;
         width: 40px;
         left: 50%;
-        margin-left: -20px;
         bottom: -4px;
         position: absolute;
         background: #828181;
         content: '';
+        transform: translateX(-50%);
     }
 
     .section-title p {
@@ -86,7 +86,7 @@
 
     .header-area {
         position: fixed;
-        z-index: 1;
+        z-index: 999;
         left: 0;
         top: 0;
         width: 100%;
@@ -167,9 +167,16 @@
         font-family: proximanova-light;
     }
 
-    .search-butn a {
+    .search-butn button {
         color: #000;
+        background: none;
+        border: none;
     }
+
+    .search-butn button:focus{
+        outline: none;
+    }
+
 
 
 /********Hero-Area*********/
