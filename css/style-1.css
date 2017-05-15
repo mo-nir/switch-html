@@ -222,15 +222,6 @@
         background: #fff;
     }
 
-    .wt-we-do-item {
-        
-    }   
-
-    .single-wt-we-do-item {
-        
-    }
-
-
     .single-wt-we-do-item img {
         padding: 34px 27px;
         border-radius: 30px;
@@ -247,7 +238,6 @@
         font-family: Montserrat;
         font-weight: 300;
     }
-
     .lern-more-butn {
         margin-top: 30px;
         background: #54d154;
@@ -264,36 +254,21 @@
     .our-lt-wrk-area-title h4{
         color: #207b20;
     }
+    .our-lt-wrk-area-title h4:after {
+        background: #207b20;
+    }
     .our-lt-wrk-area-title p{
         color: #2b9b2b;
     }
     .our-lt-wrk-grid{
         margin-top: 55px;
         margin-bottom: 55px;
-        
     }
-/*
-    .our-lt-wrk-img{
-        display: inline-block;
-        margin-bottom: 31px;
-    }
-*/
-    
-/*
-    .our-lt-wrk-img:not(:nth-child(5n+0)){
-        margin-right: 31px;
-    }
-*/
-    
-/*
-    .our-lt-wrk-img:nth-last-child(-n+5){
-        margin-bottom: 0;
-    }
-*/
+
     .vw-more-wrk-butn{
         background: #2b9b2b;
         font-family: ProximaNova-Regular;
-        font-size: 18px;
+        font-size: 16px;
         padding: 10px 20px;
     }
     /* ---- button ---- */
