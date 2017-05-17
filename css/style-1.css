@@ -204,7 +204,6 @@
         margin-top: 42px;
         padding: 16px 27px;
         background: #54d154;
-        font-family: ProximaNova-Regular;
         font-size: 22px;
     }
 
@@ -527,6 +526,12 @@
 
     .wrk-wth-us-butn-area{
         background: #3eba3e;
+    }
+
+    .wrk-wth-us-butn-area .wrk-wth-us-butn{
+        font-family: ProximaNova-Light;
+        font-size: 22px;
+        box-shadow: 0px 5px 10px #38A937;
     }
 
 /********Footer-Area*******/
