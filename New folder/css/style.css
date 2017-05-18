@@ -1,0 +1,161 @@
+/*--------------------------------------------------------------
+Theme Name: Switch
+Theme URI: https://practice.monir.pro/switch
+Author: Monir
+Author URI: 
+Version: 1.0.0
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Links
+# General
+# Preloader
+# Header
+# Home Page
+# Portfolio Page
+# Portfolio Single Page
+# About Page
+# Blog Page
+# Blog Single Page
+# Contact Page
+# Footer
+# Responsive
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+# Importing Fonts
+--------------------------------------------------------------*/
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:300i,400,400i,600,700');*/
+/*@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');*/
+
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+
+body {
+/*    color: #606060;*/
+/*    font-family: 'Source Sans Pro', sans-serif;*/
+/*    font-size: 15px;*/
+/*    font-weight: 400;*/
+/*    line-height: 25px;*/
+}
+
+button, 
+input, 
+select, 
+textarea {
+/*    color: #000;*/
+/*    font-family: 'Source Sans Pro', sans-serif;*/
+/*    font-size: 16px;*/
+/*    line-height: 20px;*/
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+/*    clear: both;*/
+/*    color: #3c3c3c;*/
+/*    font-family: 'Source Sans Pro', sans-serif;*/
+}
+
+p {
+/*    margin-bottom: 15px;*/
+/*    font-size: 15px;*/
+/*    color: #606060;*/
+/*    line-height: 25px;*/
+/*    font-family: 'Roboto', sans-serif;*/
+}
+
+ul {
+/*    margin: 0;*/
+/*    padding: 0;*/
+}
+
+li {
+/*    font-size: 15px;*/
+/*    font-family: 'Source Sans Pro', sans-serif;*/
+}
+
+dfn, 
+cite, 
+em, 
+i {
+/*    font-style: italic;*/
+}
+
+blockquote {
+/*    margin: 0 15px;*/
+}
+
+address {
+/*    margin: 0 0 15px;*/
+}
+
+/*--------------------------------------------------------------
+# Links
+--------------------------------------------------------------*/
+
+a {
+/*    font-family: 'Source Sans Pro', sans-serif;*/
+/*    color: #606060;*/
+/*    background-color: transparent;*/
+/*    -webkit-transition: all 0.4s ease;*/
+/*    -moz-transition: all 0.4s ease;*/
+/*    -o-transition: all 0.4s ease;*/
+/*    transition: all 0.4s ease;*/
+}
+
+a:visited {
+/*    color: #000000;*/
+}
+
+a:hover, a:focus, a:active {
+/*    color: #000000;*/
+/*    text-decoration: none;*/
+}
+
+a:focus {
+/*    outline: none !important;*/
+}
+
+a:hover, a:active {
+/*    outline: 0;*/
+}
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# Responsive
+--------------------------------------------------------------*/
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {}
+
+@media screen and (max-width: 1199px) {}
+
+@media screen and (max-width: 991px) {}
+
+@media screen and (max-width: 767px) {}
+
+@media screen and (max-width: 550px) {}
+
+@media screen and (max-width: 480px) {}
+
+@media screen and (max-width: 400px) {}
