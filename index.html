@@ -25,9 +25,10 @@
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#header-area" data-offset="50">
+  
    <!--Start Header-->
-    <header class="header-area">
+    <nav class="header-area navbar navbar-inverse navbar-fixed-top" id="header-area">
         <div class="container-fluid">
             <div class="navigation">
                 <div class="mob-menu"> <a class="nav-toggle" href="#">&#9776;</a>
@@ -35,11 +36,11 @@
                 </div>
                 <div class="main-menu flex">
                     <div class="menu-left">
-                        <ul class="flex">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">What We Do?</a></li>
-                            <li><a href="#">Testimonial</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                        <ul class="flex nav navbar-nav">
+                            <li><a href="#hero">Home</a></li>
+                            <li><a href="#what-we-do">What We Do?</a></li>
+                            <li><a href="#testimonial">Testimonial</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
                         </ul>
                     </div>
                     <div class="menu-center"> <a href="#"><h3>Switch</h3></a> </div>
@@ -52,11 +53,11 @@
                 </div>
             </div>
         </div>
-    </header>
+    </nav>
     <!--End Header-->
     
     <!--Start Hero Area-->
-    <section class="hero-area">
+    <section class="hero-area" id="hero">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 hero-text flex">
@@ -66,7 +67,7 @@
             </div>
         </div>
     </section>
-    <section class="wt-we-do-area section-padding">
+    <section class="wt-we-do-area section-padding" id="what-we-do">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3">
@@ -149,7 +150,7 @@
     <!--End Our Latest Work Area-->
     
     <!-- Start Testimonial Area-->
-    <section class="testimonial-area section-padding">
+    <section class="testimonial-area section-padding" id="testimonial">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3">
@@ -395,7 +396,7 @@
     
     
     <!--Start Footer Area-->
-    <footer class="footer-area">
+    <footer class="footer-area" id="contact">
         <div class="container section-padding">
             <div class="row">
                 <div class="col-md-4 footer-column">
@@ -475,8 +476,8 @@
                         <p> 10044 West 23th Street, Suite 721 <br>
                             New York NY 10010 <br>
                             Email: <a href="mailto:username@email.com">username@email.com</a> <br>
-                            Phone: <a href="tel:1 (0) 123 4567 890">+1 (0) 123 4567 890</a> <br>
-                            Fax: <a href="fax:+1 (0) 321 4567 890">+1 (0) 321 4567 890</a> <br>
+                            Phone: <a href="tel:1(0)1234567890">+1(0)1234567890</a> <br>
+                            Fax: <a href="fax:+1(0)3214567890">+1(0)3214567890</a> <br>
                         </p>
                         <form class="footer-contact-form" action="email.php" method="post" data-toggle="validator">
                             <input type="text" name="name" placeholder="Your Name.." required="">
