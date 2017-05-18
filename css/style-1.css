@@ -39,6 +39,7 @@
         align-items: center;
     }
 
+
 /********Main CSS**********/
     
     body {
@@ -131,7 +132,7 @@
         position: relative;
     }
 
-    .menu-left li a:after {
+    .menu-left li:after {
         position: absolute;
         left: 0;
         top: -14px;
@@ -139,14 +140,12 @@
         width: 100%;
         background-color: #54d154;
         content: '';
-/*        display: none;*/
+        display: none;
     }
 
     .menu-left li:hover:after {
-/*        display: block;*/
+        display: block;
     }
-
-
 
     .menu-center {
         width: 200px;
@@ -163,7 +162,7 @@
 
     input[type="search"]:focus {
         outline: none;
-        background-color: transparent;
+        background-color: none;
     }
 
     .search-butn {
