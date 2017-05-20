@@ -39,6 +39,7 @@
         align-items: center;
     }
 
+
 /********Main CSS**********/
     
     body {
@@ -116,30 +117,18 @@
     }
 
     .menu-left ul li:not(:last-child) {
-        margin-right: 20px;
     }
 
     .menu-left a{
         font-family: ProximaNova-Regular;
+        padding: 18px 15px;
     }
 
     .menu-left a:hover {
-        font-family: ProximaNova-Bold;
     }
 
     .menu-left li {
         position: relative;
-    }
-
-    .menu-left li.active {
-        position: absolute;
-        left: 0;
-        top: -14px;
-        height: 8px;
-        width: 100%;
-        background-color: #54d154;
-        content: '';
-        display: none;
     }
 
     .menu-left li:after {
@@ -157,14 +146,16 @@
         display: block;
     }
 
-
-
     .menu-center {
         width: 200px;
         text-align: center;
         margin-left: -125px;
         font-family: NautilusPompilius;
         font-size: 24px;
+    }
+
+    .menu-center h3 {
+        padding: 12px 0px;
     }
 
     input[type="search"] {
@@ -174,7 +165,7 @@
 
     input[type="search"]:focus {
         outline: none;
-        background-color: transparent;
+        background-color: none;
     }
 
     .search-butn {
